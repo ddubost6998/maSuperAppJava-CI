@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
-      - master # Si votre branche principale s'appelle 'master'
+      - master
+    paths:
+      - 'src/main/java/**/*.java'
+      - 'src/test/java/**/*.java'
 
 jobs:
   build-and-publish:
