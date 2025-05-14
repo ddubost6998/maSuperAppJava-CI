@@ -13,7 +13,7 @@ jobs:
       - name: Set up JDK 21 # Ou la version que tu as configurée dans ton pom.xml
         uses: actions/setup-java@v4 # Action pour configurer Java
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
           cache: 'maven' # Met en cache les dépendances Maven pour accélérer les builds suivants
 
